@@ -1,0 +1,51 @@
+// fromer monition
+import { motion } from 'framer-motion';
+
+const transitionVariants = {
+  initial: {
+    x: '100%',
+    widht: '100%',
+  },
+  animate: {
+    x: '0%',
+    widht: '0%',
+  },
+  exit: {
+    x: ['0%', '100%'],
+    widht: ['0%', '100%'],
+  },
+};
+
+const Transition = () => {
+  return (
+    <>
+      {/* animation untuk pindah halaman */}
+      <motion.div
+        className="fixed top-0 bottom-0 right-full w-screen h-screen z-30 bg-[#4f728b]"
+        variants={transitionVariants}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        transition={{ delay: 0.1, duration: 0.3, ease: 'easeInOut' }}
+      ></motion.div>
+      <motion.div
+        className="fixed top-0 bottom-0 right-full w-screen h-screen z-20 bg-[#F2EDD7]"
+        variants={transitionVariants}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        transition={{ delay: 0.2, duration: 0.3, ease: 'easeInOut' }}
+      ></motion.div>
+      <motion.div
+        className="fixed top-0 bottom-0 right-full w-screen h-screen z-10 bg-[#F2CF30]"
+        variants={transitionVariants}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        transition={{ delay: 0.4, duration: 0.3, ease: 'easeInOut' }}
+      ></motion.div>
+    </>
+  );
+};
+
+export default Transition;
