@@ -33,19 +33,19 @@ const workSlider = {
       images: [
         {
           title: 'title',
+          path: '/projeck/Anime.png',
+        },
+        {
+          title: 'title',
+          path: '/projeck/rental.png',
+        },
+        {
+          title: 'title',
+          path: '/projeck/defoode.png',
+        },
+        {
+          title: 'title',
           path: '/thumb4.jpg',
-        },
-        {
-          title: 'title',
-          path: '/thumb1.jpg',
-        },
-        {
-          title: 'title',
-          path: '/thumb2.jpg',
-        },
-        {
-          title: 'title',
-          path: '/thumb3.jpg',
         },
       ],
     },
