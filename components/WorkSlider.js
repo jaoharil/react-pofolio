@@ -13,15 +13,15 @@ const workSlider = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/projeck/Anime.png',
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/projeck/rental.png',
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/projeck/defoode.png',
         },
         {
           title: 'title',
