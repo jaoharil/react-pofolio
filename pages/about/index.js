@@ -36,21 +36,21 @@ const About = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <div className="h-full bg-primary/30 py-32 text-center xl:text-left lg:max-w-[48%]">
+    <div className="h-full bg-primary/30 py-32 text-center xl:text-left lg:max-w[48%] ">
       {/* Background Circles */}
       <motion.div variants={fadeIn('right', 0.2)} initial="hidden" animate="show" exit="hidden" className="hidden xl:flex absolute bottom-0 -left-[370px]">
         <Avatar />
       </motion.div>
 
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row lg:flex-row gap-x-6">
+      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row lg:flex-rowgap-x-6 ">
         {/* Text Section */}
-        <div className="flex-1 flex flex-col justify-center">
+        <div className="flex-1 flex flex-col justify-center ">
           <motion.h2 variants={fadeIn('right', 0.2)} initial="hidden" animate="show" exit="hidden" className="h2">
             Skills <span className="text-kuning">End</span> Experience
           </motion.h2>
 
           {/* Counters */}
-          <motion.div variants={fadeIn('right', 0.6)} initial="hidden" animate="show" exit="hidden" className="hidden md:flex md:max-w-xl xl:max-w-none lg:max-w-none mx-auto xl:mx-0 lg:mx-auto mb-8">
+          <motion.div variants={fadeIn('right', 0.6)} initial="hidden" animate="show" exit="hidden" className="hidden md:flex md:max-w-xl xl:max-w-none lg:max-w-none mx-auto xl:mx-0 lg:mx-auto mb-8 ">
             <div className="flex flex-1 xl:gap-x-6">
               <div className="relative flex-1 after:w-[1px] after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl lg:text-4xl font-extrabold text-kuning mb-2">
