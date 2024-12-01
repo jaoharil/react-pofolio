@@ -1,5 +1,6 @@
 import React from 'react';
-import Img from '../public/aril.png';
+import Img from '../public/sertificat/frontend.png';
+import Image from 'next/image';
 // import { BorderBeam } from '@/components/magicui/border-beam.tsx';
 
 const FirstPage = () => {
@@ -10,7 +11,7 @@ const FirstPage = () => {
           {/* image container */}
           <div className="pt-5">
             {/* <BorderBeam /> */}
-            <img src="/sertificat/frontend.png" alt="" className="w-[200px] h-[150px] mx-auto   " />
+            <Image src={Img} alt="" className="w-[200px] h-[150px] mx-auto   " />
           </div>
           {/* text container */}
           <div>

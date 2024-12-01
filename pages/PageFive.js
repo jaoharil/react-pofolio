@@ -1,6 +1,6 @@
 import React from 'react';
-import Img from '../public/aril.png';
-
+import Img from '../public/sertificat/AWS.png';
+import Image from 'next/image';
 const PageFive = () => {
   return (
     <div className="h-full">
@@ -8,14 +8,14 @@ const PageFive = () => {
         <div className="px-10 space-y-4">
           {/* image container */}
           <div className="pt-5">
-            <img src="/sertificat/javascript.png" alt="" className="w-[200px] h-[190px] mx-auto  " />
+            <Image src={Img} alt="" className="w-[200px] h-[190px] mx-auto  " />
           </div>
           {/* text container */}
           <div>
             <div className="">
-              <h1 className="uppercase text-black">JavaScript</h1>
+              <h1 className="uppercase text-black">AWS</h1>
               <p className="text-left text-black">Dicoding Indonesia</p>
-              <p className="text-xs text-black">Sertifikat ini diperoleh setelah menyelesaikan pelatihan/kursus MSIB yang diselenggarakan oleh kamendikbud. Sertifikat ini mengakui kompetensi dalam FrontEnd dengan fokus pada JavaScript.</p>
+              <p className="text-xs text-black">Sertifikat ini diperoleh setelah menyelesaikan pelatihan/kursus MSIB yang diselenggarakan oleh kamendikbud. Sertifikat ini mengakui kompetensi dalam FrontEnd dengan fokus pada AWS Cloud.</p>
             </div>
           </div>
         </div>

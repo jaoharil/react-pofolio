@@ -1,6 +1,6 @@
 import React from 'react';
-import Img from '../public/aril.png';
-
+import Img from '../public/sertificat/javascript.png';
+import Image from 'next/image';
 const PageThree = () => {
   return (
     <div className="h-full">
@@ -8,7 +8,7 @@ const PageThree = () => {
         <div className="px-10 space-y-4">
           {/* image container */}
           <div className="pt-5">
-            <img src="/sertificat/javascript.png" alt="" className="w-[200px] h-[190px] mx-auto  " />
+            <Image src={Img} alt="" className="w-[200px] h-[190px] mx-auto  " />
           </div>
           {/* text container */}
           <div>
