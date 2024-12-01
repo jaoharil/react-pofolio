@@ -24,7 +24,7 @@ const Services = () => {
               My<span className="text-kuning"> Certificate</span>
             </h2>
             <p className="hidden lg:block xl:block mb-4 max-w-[400px] text-white ">
-              These certificates reflect my accomplishments in learning programming. They validate my skills in [specific languages or technologies] and demonstrate my ability to develop effective solutions. Each certification marks a key
+              These certificates reflect my accomplishments in learning programming. They validate my skills in specific languages or technologies and demonstrate my ability to develop effective solutions. Each certification marks a key
               milestone in my growth as a programmer.{' '}
             </p>
             {/* <p>Through these certifications, I continually strengthen my expertise as a capable programmer, staying updated with the latest trends and advancements in the tech industry.</p> */}

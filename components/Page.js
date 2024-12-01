@@ -1,4 +1,4 @@
-import { React, forwardRef } from 'react';
+import React, { forwardRef } from 'react';
 
 const Page = forwardRef((props, ref) => {
   return (
@@ -9,5 +9,8 @@ const Page = forwardRef((props, ref) => {
     </div>
   );
 });
+
+// Tambahkan displayName untuk komponen
+Page.displayName = 'Page';
 
 export default Page;
