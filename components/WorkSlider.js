@@ -14,18 +14,22 @@ const workSlider = {
         {
           title: 'title',
           path: '/projeck/Anime.png',
+          url: 'https://github.com/jaoharil/movie-anime',
         },
         {
           title: 'title',
           path: '/projeck/rental.png',
+          url: 'https://github.com/jaoharil/rentdrive',
         },
         {
           title: 'title',
           path: '/projeck/defoode.png',
+          url: 'https://github.com/jaoharil/DEfood',
         },
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/projeck/vesmet.png',
+          url: 'https://github.com/jaoharil/vesmetreact',
         },
       ],
     },
@@ -68,9 +72,9 @@ const WorkSlider = () => {
       freeMode={true}
       spaceBetween={10}
       pagination={{
-        clikcable: true,
+        clickable: true,
       }}
-      modules={{ Pagination }}
+      modules={[Pagination]}
       className="h-[280px] sm:h-[480px]"
     >
       {workSlider.slides.map((slide, index) => {
@@ -91,11 +95,16 @@ const WorkSlider = () => {
                       {/* title */}
                       <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hove:xl:translate-y-20 transition-all duration-300">
                         <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]">
-                          <div className="delay-100">Live</div>
-                          <div className="traslate-y-[500%] group-hover:">Projek</div>
-                          <div className="text-xl translate-y-[500%] group-hover:trasnlate-y-0 transtion-all duration-300 delay-200 ">
-                            <BsArrowRight />
-                          </div>
+                          {image.url && (
+                            <a
+                              href={image.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="absolute bottom-0 translate-y-full group-hover:-translate-y-4 transition-all duration-300 flex items-center gap-x-2 text-[13px] tracking-[0.2em] text-white bg-sky-300 py-1 px-3 rounded-lg"
+                            >
+                              Live Projek <BsArrowRight />
+                            </a>
+                          )}
                         </div>
                       </div>
                     </div>

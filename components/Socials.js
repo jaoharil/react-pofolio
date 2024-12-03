@@ -7,13 +7,13 @@ const Socials = () => {
       <Link href={'https://www.instagram.com/_lah1_'} className="hover:text-kuning transtion-all duration-300">
         <RiInstagramLine />
       </Link>
-      <Link href={'/'} className="hover:text-kuning transtion-all duration-300">
+      <Link href={'https://www.facebook.com/rilscoy/'} className="hover:text-kuning transtion-all duration-300">
         <RiFacebookLine />
       </Link>
-      <Link href={'/'} className="hover:text-kuning transtion-all duration-300">
+      <Link href={'https://github.com/jaoharil'} className="hover:text-kuning transtion-all duration-300">
         <RiGithubFill />
       </Link>
-      <Link href={'www.linkedin.com/in/jaoharil'} className="hover:text-kuning transtion-all duration-300">
+      <Link href={'https://www.linkedin.com/in/jaoharil/'} className="hover:text-kuning transtion-all duration-300">
         <RiLinkedinBoxFill />
       </Link>
     </div>

@@ -26,8 +26,9 @@ const aboutData = [
   {
     title: 'pengalaman',
     info: [
-      { title: 'Webby Awards - Honoree', stage: '2011 - 2012' },
-      { title: 'Adobe Design Achievement Awards - Finalist', stage: '2009 - 2010' },
+      { title: 'Frontend Developer & Laravel Developer', stage: '2023 - 2024' },
+      { title: 'Mengembangkan aplikasi web responsif dan interaktif menggunakan HTML, CSS, JavaScript, React, dan Vue.js', stage: '2023 - 2024' },
+      { title: 'Membangun aplikasi backend dengan Laravel, mencakup autentikasi pengguna, integrasi API, dan manajemen database', stage: '2023 - 2024' },
     ],
   },
 ];

@@ -11,8 +11,10 @@ const Work = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row -gap-x-8 ">
           {/*text  */}
-          <div>
-            <h2 className="h2 xl:mt-12">My Projek</h2>
+          <div className="text-center flex lg:text-left flex-col xl:w-[30vw] mb-4 xl:mb-0">
+            <h2 className="h2 xl:mt-12">
+              My <span className="text-kuning"> Work</span>
+            </h2>
           </div>
           {/* slider */}
           <motion.div variants={fadeIn('down', 0.6)} initial="hidden" animate="show" exit="hidden" className="w-full xl:w-[600px] xl:max-[65%] xl:pt-[100px]">
