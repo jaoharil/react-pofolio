@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaHtml5, FaCss3, FaJs, FaReact, FaWordpress, FaFigma, FaLaravel } from 'react-icons/fa';
 import { SiNextdotjs, SiFramer, SiAdobexd, SiAdobephotoshop, SiTailwindcss } from 'react-icons/si';
-
+import ParticlesContainer from '../../components/ParticlesContainer';
 import Avatar from '../../components/Avatar';
 import Circles from '../../components/Circles';
 import { motion } from 'framer-motion';
@@ -24,7 +24,7 @@ const aboutData = [
     ],
   },
   {
-    title: 'pengalaman',
+    title: 'Experience',
     info: [
       { title: 'Frontend Developer & Laravel Developer', stage: '2023 - 2024' },
       { title: 'Mengembangkan aplikasi web responsif dan interaktif menggunakan HTML, CSS, JavaScript, React, dan Vue.js', stage: '2023 - 2024' },
@@ -39,6 +39,7 @@ const About = () => {
   return (
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left lg:max-w[48%] ">
       {/* Background Circles */}
+      <ParticlesContainer />
       <motion.div variants={fadeIn('right', 0.2)} initial="hidden" animate="show" exit="hidden" className="hidden xl:flex absolute bottom-0 -left-[370px]">
         <Avatar />
       </motion.div>
@@ -72,7 +73,7 @@ const About = () => {
         {/* Info Section */}
         <motion.div variants={fadeIn('left', 0.4)} initial="hidden" animate="show" exit="hidden" className="flex flex-col w-full xl:max-w-[48%] lg:max-w-[30%] h-[400px] items-center">
           {/* Tabs */}
-          <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4 lg:gap-x-8 lg:mx-0">
+          <div className="flex  gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4 lg:gap-x-8 lg:mx-0">
             {aboutData.map((item, itemIndex) => (
               <div
                 key={itemIndex}
@@ -87,7 +88,7 @@ const About = () => {
           </div>
 
           {/* Info Content */}
-          <div className="bg-pink-400/10 py-2 lg:px-4 lg:py-4 lg:w-[50%] xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 lg:gap-y-4 items-center">
+          <div className="bg-pink-400/10 py-2 lg:px-4 lg:py-4 lg:w-[80%] xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 lg:gap-y-4 items-center">
             {aboutData[index].info.map((item, itemIndex) => (
               <div key={itemIndex} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-kuning/80">
                 <div className="font-light mb-2 md:mb-0">{item.title}</div>

@@ -5,7 +5,7 @@ import Image from 'next/image';
 const PageFour = () => {
   return (
     <div className="h-full">
-      <main className="w-full h-full bg-primary/60 page-shadow ">
+      <main className="w-full h-full bg-kuning page-shadow ">
         <div className="px-10 space-y-4">
           {/* image container */}
           <div className="pt-5">

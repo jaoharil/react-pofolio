@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center p-4">
-      <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-sm transition hover:shadow-lg">
+    <div className="min-h-screen  bg-primary/30 flex items-center justify-center p-4">
+      <div className="bg-kuning shadow-md rounded-lg p-6 w-full max-w-sm transition hover:shadow-lg">
         <h1 className="text-2xl font-semibold text-center text-gray-800 mb-4">Contact Us</h1>
         <form>
           <div className="mb-3">

@@ -25,6 +25,7 @@ const Home = () => {
 
   return (
     <div className="bg-primary/60 h-full ">
+      <ParticlesContainer />
       {/* text */}
       <div className="w-full h-full   bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="text-center flex flex-col pt-20 sm:pt-[300px] xl:justify-center lg:justify-center  xl:pt-20 xl:text-left h-full container mx-auto ">
@@ -51,7 +52,6 @@ const Home = () => {
           {/* <div className="bg-back bottom-0 right-[-1%] xl:bg-back xl:bg-cover xl:bg-right xl:bg-no-repeat w-[400px] h-[500px] absolute mix-blend-color-dodge translate-z-0 lg:right-[0%] lg:w-[800px] lg:h-[700px] rotate-1 md:w-[700px] md:h-[500px] md:right-[0%] md:bg-no-repeat md:bottom-0"></div> */}
 
           {/* particles */}
-          <ParticlesContainer />
 
           {/* avatar */}
           <motion.div
