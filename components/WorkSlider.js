@@ -36,20 +36,22 @@ const workSlider = {
     {
       images: [
         {
-          title: 'title',
-          path: '/projeck/Anime.png',
+          title: 'Pemesanan Website',
+          path: '/projeck/shopee.png',
+          url: 'https://rils-web.vercel.app/',
+        },
+        {
+          title: 'Shopee',
+          path: '/projeck/shope.png',
+          url: 'https://github.com/jaoharil/minishopee',
+        },
+        {
+          title: 'Spk',
+          path: '/projeck/spk.png',
         },
         {
           title: 'title',
-          path: '/projeck/rental.png',
-        },
-        {
-          title: 'title',
-          path: '/projeck/defoode.png',
-        },
-        {
-          title: 'title',
-          path: '/thumb4.jpg',
+          path: '/projeck/Toko.png',
         },
       ],
     },
