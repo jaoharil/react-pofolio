@@ -11,6 +11,7 @@ import PageTwo from '../PageTwo';
 import PageThree from '../PageThree';
 import PageFour from '../PageFour';
 import PageFive from '../PageFive';
+import PageSix from '../PageSix';
 
 const Services = () => {
   return (
@@ -37,6 +38,9 @@ const Services = () => {
             <Page number={2}>
               <FirstPage />
             </Page>
+            <Page number={7}>
+              <PageSix />
+            </Page>
             <Page number={3}>
               <PageTwo />
             </Page>
@@ -49,6 +53,9 @@ const Services = () => {
             <Page number={6}>
               <PageFive />
             </Page>
+            {/* <Page number={7}>
+              <PageSix />
+            </Page> */}
           </HTMLFlipBook>
         </div>
       </div>

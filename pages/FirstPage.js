@@ -11,14 +11,16 @@ const FirstPage = () => {
           {/* image container */}
           <div className="pt-5">
             {/* <BorderBeam /> */}
-            <Image src={Img} alt="" className="w-[200px] h-[150px] mx-auto   " />
+            <Image src={Img} alt="" className="w-[350px] h-[190px] mx-auto   " />
           </div>
           {/* text container */}
           <div>
             <div className=" ">
               <h1 className="uppercase text-black">FrontEnd Web DEVELOPER</h1>
               <p className="text-left text-black">Dicoding Indonesia</p>
-              <p className="text-xs text-black">Sertifikat ini diperoleh setelah menyelesaikan pelatihan/kursus MSIB yang diselenggarakan oleh kamendikbud. Sertifikat ini mengakui kompetensi dalam FrontEnd dengan fokus pada JavaScript.</p>
+              <p className="text-xs text-black">
+                Sertifikat ini diperoleh setelah menyelesaikan pelatihan/kursus yang diselenggarakan oleh dicoding indonesia. Sertifikat ini mengakui kompetensi dalam FrontEnd dengan fokus pada JavaScript.
+              </p>
             </div>
           </div>
         </div>

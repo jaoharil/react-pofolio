@@ -8,7 +8,7 @@ const PageTwo = () => {
         <div className="px-10 space-y-4">
           {/* image container */}
           <div className="pt-5">
-            <Image src={Img} alt="fullstack" className="w-[200px] h-[150px] mx-auto  " />
+            <Image src={Img} alt="fullstack" className="w-[350px] h-[190px] mx-auto  " />
           </div>
           {/* text container */}
 

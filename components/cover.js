@@ -1,8 +1,14 @@
 import React from 'react';
+import Img from '../public/sertificat/s.jpg';
+import Image from 'next/image';
 
 const Cover = () => {
   return (
     <div class="profile-card text-[#e2e6d5] w-full h-full rounded-md shadow-xl overflow-hidden z-[100] relative cursor-pointer snap-start shrink-0 bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col items-center justify-center gap-3 transition-all duration-300 group">
+      <div className="">
+        {/* <BorderBeam /> */}
+        <Image src={Img} alt="" className="w-[300px] h-[190px] mx-auto border  " />
+      </div>{' '}
       <div class="avatar w-full pt-5 flex items-center justify-center flex-col gap-1"></div>
       <div class="headings *:text-center *:leading-4">
         <p class="text-xl font-serif font-semibold text-[#c8e855]">Jaoharil Maknun</p>

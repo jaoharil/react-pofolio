@@ -1,7 +1,7 @@
 import React from 'react';
-import Img from '../public/sertificat/AWS.png';
+import Img from '../public/sertificat/react.png';
 import Image from 'next/image';
-const PageFive = () => {
+const PageSix = () => {
   return (
     <div className="h-full">
       <main className="w-full h-full bg-kuning page-shadow ">
@@ -13,9 +13,11 @@ const PageFive = () => {
           {/* text container */}
           <div>
             <div className="">
-              <h1 className="uppercase text-black">AWS</h1>
+              <h1 className="uppercase text-black">React JS</h1>
               <p className="text-left text-black">Dicoding Indonesia</p>
-              <p className="text-xs text-black">Sertifikat ini diperoleh setelah menyelesaikan pelatihan/kursus yang diselenggarakan oleh dicoding indonesia. Sertifikat ini mengakui kompetensi dalam FrontEnd dengan fokus pada AWS Cloud.</p>
+              <p className="text-xs text-black">
+                Sertifikat ini diperoleh setelah menyelesaikan pelatihan/kursus yang diselenggarakan oleh dicoding indonesia. Sertifikat ini mengakui kompetensi dalam FrontEnd dengan fokus pada JavaScript.
+              </p>
             </div>
           </div>
         </div>
@@ -24,4 +26,4 @@ const PageFive = () => {
   );
 };
 
-export default PageFive;
+export default PageSix;
