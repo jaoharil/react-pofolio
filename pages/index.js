@@ -12,7 +12,7 @@ const Home = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Frontend Web Developer', 'UI/UX Designer'],
+      strings: ['Frontend Web Developer', 'Full Stack Web Developer'],
       typeSpeed: 100,
       backSpeed: 50,
       loop: true,

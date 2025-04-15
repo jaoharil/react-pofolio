@@ -14,7 +14,7 @@ const aboutData = [
     title: 'skills',
     info: [
       {
-        title: 'Web Development',
+        title: 'Fullstack Developer',
         icons: [<FaHtml5 key="html5" />, <FaCss3 key="css3" />, <SiTailwindcss key="tailwind" />, <FaJs key="js" />, <FaReact key="react" />, <FaLaravel key="laravel" />, <SiNextdotjs key="nextjs" />],
       },
       {
